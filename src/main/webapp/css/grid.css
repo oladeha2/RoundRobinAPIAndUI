@@ -1,0 +1,99 @@
+ /*TODO: put your css code here*/
+ .wrapper {
+     width: 80%;
+     height: 500px;
+     margin: 0 auto;
+ }
+
+.mainheader {
+    width: 100%;
+    border: 1px solid dodgerblue;
+    margin-bottom: 2%;
+}
+
+.mainheader > h1 {
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 5%;
+}
+
+.mainheader > p {
+    font-size: 20px;
+    padding-left: 5%;
+}
+
+.content, .panel {
+    height: 50%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+
+}
+
+.panel {
+    float:left;
+    border: 1px solid dodgerblue;
+    -webkit-flex: 1;
+    flex: 1;
+    width: 30%;
+    margin-right: 2%;
+}
+
+ .content {
+     float: left;
+     border: 1px solid dodgerblue;
+     flex: 1;
+     -webkit-flex: 1;
+     width: 63%;
+ }
+
+ table {
+     width: 80%;
+     border: 1px solid black;
+ }
+
+ th {
+     background: darkgrey;
+     text-align: left;
+ }
+
+ .panel > h4 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.panel > input {
+    width: 70%
+}
+
+.content > h2 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.mainfooter {
+    float: left;
+    width: 100%;
+    border: 1px solid dodgerblue;
+    margin-top: 2%;
+}
+
+.mainfooter > p {
+    padding-left: 5%;
+}
+
+
+ @media (max-width: 600px) {
+    .wrapper {
+        display: flex;
+        display: -webkit-flex;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+
+     .content, .panel {
+         margin-bottom: 2%;
+         width: 100%;
+     }
+}
+
+
