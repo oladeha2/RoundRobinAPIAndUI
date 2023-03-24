@@ -1,4 +1,4 @@
-# Round Robin Fixture Creator API
+# Round Robin Fixture Creator API and UI
 ## This test comprises of backend and frontend problems.
 The API portion comprises of creating a new REST endpoint and the frontend portion comprises of accessing said endpoint and displaying the resulting information on a webpage.
 
